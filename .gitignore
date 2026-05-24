@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Research data
+# Keep downloaded OpenNeuro/BIDS datasets and derived large data files out of Git.
+data/**
+!data/
+!data/.gitkeep
